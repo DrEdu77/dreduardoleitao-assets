@@ -31,6 +31,13 @@
 - **Agora**: média de **29 minutos por vídeo** (roteiro, voz, imagem e edição)
 - A "fábrica" é invisível — ninguém sabe que é IA, ninguém sabe quem é o dono
 
+**Demonstração prática ao vivo na imersão:**
+- Ferramenta recomendada pela organização: **Claude** (IA oficial do método)
+- Agente/prompt: "roteirista talentoso" → gera roteiro completo em inglês
+- Workflow: roteiro → dividir em **8 blocos** → narração com voz natural → edição via template (CapCut) → publicar
+- **Roteiro de 45 minutos gerado em ~4 minutos** (nicho saúde, público 50+ americano)
+- Exatamente o que já fazemos: `scripts/v01-spine-facts-SCRIPT-COMPLETO.md` ✅
+
 ### Motor 2 — RECEITA: Jogo do RPM em Dólar
 > Otimizar a receita por mil visualizações (RPM) antes de publicar o primeiro vídeo.
 - RPM depende de: **nicho + referências + idioma + watch time**
