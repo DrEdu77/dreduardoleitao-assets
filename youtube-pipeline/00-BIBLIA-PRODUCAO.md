@@ -476,6 +476,16 @@ BLOCO 6 — [CTA DE VENDAS] (oferta de infoproduto)
 - Ticket de infoproduto elevado (cursos, meditações guiadas, manifestação)
 - Niche com baixa concorrência técnica de produção (audiência não exige B-roll elaborado)
 
+**Métricas-chave do Case 5 (tabela oficial da imersão):**
+| Indicador | Resultado |
+|---|---|
+| Volume até o 1º vídeo viral | **~27 vídeos** |
+| AdSense 8 meses | **R$500.000** |
+| Infoprodutos (e-book + newsletter) | **R$120.000** |
+| Faturamento total | **R$620.000+** |
+| Duração média dos vídeos | **25–35 minutos** |
+| Frequência atual | **Diária** |
+
 **Monetização do Case 5 (detalhamento):**
 | Fonte | Valor |
 |---|---|
