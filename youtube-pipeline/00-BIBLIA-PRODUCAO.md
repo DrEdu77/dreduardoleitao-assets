@@ -37,6 +37,17 @@
 > **Realismo do método:** resultados variam por pessoa e exigem trabalho e disciplina.
 > Não é enriquecimento instantâneo — é execução consistente que gera resultado real.
 
+### Tradicional vs. Negócio Anônimo com IA
+
+| Item | Negócios Tradicionais | Negócio Anônimo com IA |
+|---|---|---|
+| Estoque | ✅ Sim | ❌ Não |
+| Funcionários | ✅ Sim | ❌ Não |
+| Depende de você | ✅ Sim | ❌ Não |
+| Receita em dólar | ❌ Não | ✅ Sim |
+| Margem acima de 75% | ❌ Não | ✅ Sim |
+| Escala global | ⚠️ Limitada | ✅ Sim |
+
 ---
 
 ## OS 4 PILARES DO RPM (Channels PRO® — Cassiano Girardi)
