@@ -6,6 +6,23 @@
 
 ---
 
+## ORIGEM DO MÉTODO — "NEGÓCIO ANÔNIMO" (Channels PRO® — Cassiano Girardi)
+
+| Item | Detalhe |
+|---|---|
+| Nome do evento | **Negócio Anônimo — 4ª Edição** |
+| Organização | Channels PRO® / Channels Educação (Cassiano Girardi) |
+| Formato | Imersão presencial: **Sábado e Domingo, 9h–17h** |
+| Objetivo | Canais anônimos com IA — margem acima de **75%**, receita em **dólar** |
+| Público-alvo | Empresários que querem reduzir dependência do negócio + iniciantes buscando renda em dólar |
+| 4 descobertas da estrutura | 1. Diagnóstico do negócio · 2. O elemento que torna o modelo inquebrável · 3. Sistema passo a passo · 4. Aplicação prática imediata |
+
+> **Por que isso importa:** Dr. Eduardo participou desta imersão e toda a inteligência desta Bíblia
+> foi capturada diretamente do evento. Não é teoria — é o que operadores reais ensinaram ao vivo,
+> com prints de faturamento, stacks reais e rotinas de produção verificadas.
+
+---
+
 ## OS 4 PILARES DO RPM (Channels PRO® — Cassiano Girardi)
 > Confirmado nas imagens da aula ao vivo. Estes são os 4 pilares EXATOS do método.
 
