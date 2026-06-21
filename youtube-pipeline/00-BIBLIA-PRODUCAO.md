@@ -31,11 +31,12 @@
 - Idioma do canal no YouTube: English (United States)
 - Razão: CPM americano de finanças = US$15–30 vs R$1–2 no Brasil
 
-### PILAR 4 — WATCH TIME DE 45 MINUTOS
-- Duração padrão de TODOS os vídeos: 44–47 minutos
-- Razão: mais mid-roll ads (até 8 breaks), mais receita por view, mais watch time acumulado
-- Único formato que não é 45 min: vídeos de animais = 8–12 minutos (viral, algoritmo)
-- Estrutura: Hook 30s → Intro 90s → 8 Capítulos → CTA 60s
+### PILAR 4 — WATCH TIME: 40 A 70 MINUTOS (média 1 hora)
+- Duração real confirmada: **40 a 70 minutos** — não é exatamente 45 min
+- Média próxima de **1 hora** (mais mid-roll ads, maior receita por view)
+- Vídeos de animais (1 por semana): 8–12 minutos (viral, algoritmo)
+- Estrutura: Hook 30s → Intro 90s → Capítulos → CTA 60s
+- Formato visual: **400–500 imagens** + pequenos clipes intercalados (não B-roll contínuo)
 
 ### PILAR 4 — REFERÊNCIA "PODER DO CONHECIMENTO"
 - Tom: documentário educativo, autoritativo, calmo, como um especialista que explica
@@ -61,35 +62,49 @@
 
 ---
 
-## MODELO DE NEGÓCIO (baseado nos resultados do Channels PRO®)
+## MODELO DE NEGÓCIO — DADOS REAIS VERIFICADOS
+
+### Case principal (operador da imersão Channels PRO®):
+| Indicador | Dado real |
+|---|---|
+| Canais ativos | **2 canais** (testaram muitos, ficaram com 2) |
+| Frequência | **Diária** — desde o primeiro dia |
+| Duração dos vídeos | **40 a 70 min** (média perto de 1 hora) |
+| Recursos visuais por vídeo | **400 a 500 imagens** + pequenos clipes de vídeo |
+| Faturamento recente | **~R$693.197** (quase R$700 mil) |
 
 ### Resultados documentados de alunos em 2026:
 - Aluno 1: **7.338.322 views** → R$558.126 de receita estimada
 - Aluno 2: **1.598.816 views** → R$70.028 de receita estimada
 
-### Projeção com múltiplos canais:
-| Canais | Vídeos/total | Views/mês | Receita/mês |
-|---|---|---|---|
-| 1 canal | 40/semana | 500K | US$5.000–8.000 |
-| 2 canais | 80/semana | 1,2M | US$12.000–18.000 |
-| 3 canais | 120/semana | 2,5M | US$25.000–38.000 |
+### ⚠️ CORREÇÃO IMPORTANTE — Formato visual dos vídeos:
+Os vídeos NÃO são produzidos com B-roll de vídeo contínuo.
+O formato real é: **SLIDESHOW de imagens + pequenos clipes intercalados**
 
-**Margem acima de 75%** — custo de produção quase zero com IA
+- 400–500 imagens por vídeo de ~1 hora
+- 1 imagem a cada 6–8 segundos em média
+- Pequenos clips de vídeo (5–10s) intercalados nos momentos-chave
+- Resultado: parece documentário, mas a produção é muito mais rápida e barata
+
+**Implicação**: Higgsfield, Kling e Runway são desnecessários.
+O formato é **imagens** (Pexels, Unsplash, Pixabay, Canva, DALL-E) + clips curtos do Pexels.
 
 ---
 
-## VOLUME DE PRODUÇÃO
+## VOLUME DE PRODUÇÃO (modelo real confirmado)
 
-### Por canal por semana:
-- **39 vídeos de 45 min** (nichos financeiro/educativo)
-- **1 vídeo de 8–12 min** (gatinhos e cachorros pelo mundo)
-- **Total: 40 vídeos/semana/canal**
+### Frequência: DIÁRIA desde o início
+- 1 vídeo por dia por canal = 7 vídeos/semana/canal
+- Começar com 1 canal, publicar todo dia
+- Construir buffer de 7–14 dias antes de lançar
 
-### Como é possível:
-- Script: Claude Code em batch (5 scripts por prompt)
-- Voz: ElevenLabs API (processo automatizado)
-- Vídeo: CapCut Pro com template salvo (30 min por vídeo)
-- Upload: YouTube API + agendamento automático
+### Como é possível publicar todo dia:
+- Script: Claude Code (30 min por script de 1 hora)
+- Voz: ElevenLabs (geração automática em 15 min)
+- Visual: 400–500 imagens curadas do Pexels/Canva (30 min de curadoria)
+- Edição: CapCut Pro com template (45 min de montagem)
+- **Total por vídeo: ~2h de trabalho**
+- Batching: produzir 3–5 vídeos numa sessão = eficiência máxima
 
 ---
 
