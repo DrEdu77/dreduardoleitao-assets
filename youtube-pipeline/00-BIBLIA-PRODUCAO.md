@@ -441,6 +441,47 @@ Não espere o YouTube te dar um RPM bom. ESCOLHA o RPM antes de publicar.
 - Delegar para freelancers (roteiro + edição)
 - Meta: **2 vídeos/dia por canal** (de 1 atual → 2 com escala)
 
+### Case 5 — Ex-CLT de Marketing / Espiritualidade + Infoprodutos 🕊️
+> **R$600.000+ em 8 meses | Monetizado em apenas 58 dias**
+
+| Item | Detalhe |
+|---|---|
+| Histórico | 10 anos em marketing na CLT → saiu para focar 100% no YouTube |
+| Nicho | **Espiritualidade** (micro-nicho: lei da atração) — 100% em inglês |
+| Velocidade | **Monetizado em 58 dias** |
+| Resultado 8 meses | **R$600.000+** (AdSense + infoprodutos combinados) |
+| Frequência | Começou dia sim/dia não → evoluiu para **postagem diária** |
+| Duração | **25–35 minutos** por vídeo |
+| Fontes de receita | AdSense + **infoprodutos próprios** (CTAs de venda dentro dos vídeos) |
+
+**Estrutura dos vídeos (6 blocos):**
+```
+BLOCO 1 — Hook com open loop (retém curiosidade, não fecha a promessa ainda)
+BLOCO 2 — Desenvolvimento
+BLOCO 3 — Aprofundamento
+BLOCO 4 — [CTA DE ENGAJAMENTO] (pede like/comentário/subscribe)
+BLOCO 5 — Clímax / revelação
+BLOCO 6 — [CTA DE VENDAS] (oferta de infoproduto)
+```
+
+**Técnicas de produção do Case 5:**
+- Usa **prompts estratégicos no ChatGPT** para gerar estruturas, hooks poderosos e ideias
+- Thumbnail: **personagem marcante + texto grande** — virada ocorreu após implementar mudanças sugeridas por IA
+- Fontes de ideias: **livros** (inspiração direta), modelagem de canais correlatos, análise contínua do feed do YouTube
+- **Canal "zerado" dedicado à pesquisa**: nova conta sem histórico pessoal, usada só para consumir conteúdo do nicho e mapear tendências sem viés do algoritmo pessoal
+
+**Por que espiritualidade?**
+- CPM americano de espiritualidade/lei da atração é surpreendentemente alto
+- Audiência altamente fiel e recorrente (assiste série inteira de vídeos)
+- Ticket de infoproduto elevado (cursos, meditações guiadas, manifestação)
+- Niche com baixa concorrência técnica de produção (audiência não exige B-roll elaborado)
+
+**Estratégia de crescimento do Case 5:**
+- Pesquisa minuciosa de canais concorrentes + palavras-chave para mapear **dores da audiência**
+- **Remodelagem incremental**: pegar vídeos com pico modesto (ex: 500 views) e remodelar título/thumbnail para gerar reexposição e ganho incremental
+- **Vídeo "Frankenstein"** (o ~27º vídeo): combinou **3 ideias validadas** em uma única thumbnail/título inovador → vídeo explodiu o canal → 100K inscritos em 5 meses pós-monetização
+- **Proteção de espaço**: quando concorrentes começaram a copiar o estilo, criou **novos canais internos** para dominar o ecossistema do nicho e impedir que outros se instalem
+
 ### Padrão comum entre os cases de sucesso:
 - Começaram com **0 recursos** — não esperaram ter tudo perfeito
 - Publicação **diária** nos primeiros 90 dias
