@@ -278,6 +278,23 @@ Estudar minuciosamente de canais rivais:
 - Defina o plano → execute com consistência → NÃO abandone antes de 90 dias
 - Um canal ruim que publica todo dia bate um canal perfeito que publica quando tem vontade
 
+### 5. Rotina Criativa (hack de performance mental)
+- Tomar decisões criativas (títulos, ideias de vídeo) **pela manhã** — quando há mais clareza
+- À tarde/noite: execução mecânica (edição, upload, curadoria de imagens)
+
+### 6. Desapegar (hack anti-desperdício)
+- Abandonar canais e vídeos que **não performam** — realocar esforço para o que cresce
+- Não ter apego emocional: se o canal não cresce em 90 dias de consistência, pivotar o nicho
+
+### 7. Controle de Distrações
+- Reduzir consumo de redes sociais e notícias durante a operação
+- "Desintoxicação digital" para sustentar foco no longo prazo
+- O operador chama de "sustentar o foco no deserto" — os primeiros meses são lentos
+
+### 8. Teste e Repetição ("colocar o canal na academia")
+- Consistência mesmo sem resultado imediato — o algoritmo leva 4–8 semanas para reagir
+- Cada vídeo é um treino. O canal fica mais forte com o tempo, não do dia pra noite
+
 ---
 
 ## IMPACTO E DECISÕES DE NEGÓCIO (próximos passos ao escalar)
@@ -347,6 +364,46 @@ Não espere o YouTube te dar um RPM bom. ESCOLHA o RPM antes de publicar.
 - CapCut Pro: ✅ Já tem
 - **Higgsfield AI**: ❌ Adquirir (US$~100/mês = ~R$500) — gera os vídeos com IA
 - **Higgsfield substitui** o stock footage manual do Pexels → vídeo IA muito mais profissional
+
+---
+
+## STACK REAL CONFIRMADO (ferramentas do operador R$693K)
+
+| Função | Ferramenta deles | Nossa equivalência |
+|---|---|---|
+| Prompts e roteiros | ChatGPT | **Claude Code** (superior para scripts) |
+| Títulos, análise, agente por canal | **Claude** (agente especializado) | ✅ Claude Code — já é o que usamos |
+| Edição, SRT, áudio | **CapCut** | ✅ CapCut Pro — já temos |
+| Imagens e vídeos | **Meta AI** (com ajustes finos) | Meta AI (grátis) + Pexels |
+| Thumbnails | Photoscape | Canva (equivalente, já temos) |
+| Gestão de tarefas | Trello | Obsidian + planilha Google Sheets |
+
+### ⚡ Descoberta crítica — Agente Claude por canal:
+> "Um agente especializado **por canal** sugere 10 títulos semanais e refina com base no desempenho."
+
+Isso significa:
+- Criar uma **skill/prompt específico por canal** no Claude
+- O agente conhece o nicho, o público e o histórico de performance daquele canal
+- Sugere 10 títulos toda semana
+- Aprende com os vídeos que mais performaram
+
+### ⚡ Descoberta crítica — Caixa de Instrução:
+> "Uma **caixa de instrução** inserida entre o título e a estrutura orienta a IA com o foco específico do vídeo."
+
+Estrutura do prompt com caixa de instrução:
+```
+[TÍTULO DO VÍDEO]
+
+--- CAIXA DE INSTRUÇÃO ---
+Público: americanos 50+, preocupados com aposentadoria
+Tom: calmo, autoritativo, como um consultor financeiro de confiança
+Ângulo: foco em ERROS a evitar (mais engajamento que dicas positivas)
+Diferencial: mencionar dados do governo americano sempre que possível
+Hook: começar com uma perda financeira real, não com uma promessa
+--- FIM DA CAIXA ---
+
+[ESTRUTURA DO ROTEIRO]
+```
 
 ---
 
