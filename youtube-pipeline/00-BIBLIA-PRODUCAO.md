@@ -498,11 +498,27 @@ BLOCO 6 — [CTA DE VENDAS] (oferta de infoproduto)
 - **Validação de produto antes de criar**: lançou **newsletter gratuita** para coletar leads e validar interesse
 - Depois de validado: e-book por **US$30 com distribuição global**
 
+**Stack do Case 5 (ferramentas reais — 40–60 min/vídeo ponta a ponta):**
+| Função | Ferramenta |
+|---|---|
+| Roteiro + ideias de título + prompts de imagem | **ChatGPT** com agente "Shadow GPT" (customizado) |
+| Geração de imagens | **Ideogram** (hiper-táticas, estéticas, alta qualidade) |
+| Thumbnail (ajustes finos + fontes) | **Canva** |
+| Edição final (efeitos + elementos dinâmicos) | **CapCut** |
+
+> ⚡ **40–60 minutos por vídeo** — da ideia ao upload com comentário fixado.
+> Decisão de negócio: consolidar **1 canal principal** de alta performance antes de expandir para múltiplos.
+
 **Estratégia de crescimento do Case 5:**
 - Pesquisa minuciosa de canais concorrentes + palavras-chave para mapear **dores da audiência**
 - **Remodelagem incremental**: pegar vídeos com pico modesto (ex: 500 views) e remodelar título/thumbnail para gerar reexposição e ganho incremental
 - **Vídeo "Frankenstein"** (o ~27º vídeo): combinou **3 ideias validadas** em uma única thumbnail/título inovador → vídeo explodiu o canal → 100K inscritos em 5 meses pós-monetização
 - **Proteção de espaço**: quando concorrentes começaram a copiar o estilo, criou **novos canais internos** para dominar o ecossistema do nicho e impedir que outros se instalem
+
+**Insights de ouro do Case 5:**
+1. **Modelagem ativa constante** — analise concorrentes bem-sucedidos e traga o melhor deles adaptando títulos e formatos para o seu projeto
+2. **Aproveite os pequenos picos** — não ignore vídeos com crescimento modesto; mude a embalagem (título + thumb) e insista no tema → ali há **demanda reprimida**
+3. **Venda a transformação** — nichos de desenvolvimento pessoal têm altíssima conversão global. Newsletter gratuita = esteira de lead nurturing → monetizar além do AdSense
 
 ### Padrão comum entre os cases de sucesso:
 - Começaram com **0 recursos** — não esperaram ter tudo perfeito
