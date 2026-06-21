@@ -476,6 +476,18 @@ BLOCO 6 — [CTA DE VENDAS] (oferta de infoproduto)
 - Ticket de infoproduto elevado (cursos, meditações guiadas, manifestação)
 - Niche com baixa concorrência técnica de produção (audiência não exige B-roll elaborado)
 
+**Monetização do Case 5 (detalhamento):**
+| Fonte | Valor |
+|---|---|
+| AdSense (dólar) | ~R$500.000 |
+| Infoprodutos | ~R$120.000 |
+| **Total 8 meses** | **R$620.000+** |
+
+- **Funil de conversão**: CTAs dentro do vídeo → **comentário fixado** (não link na descrição)
+  - Comentário fixado é favorecido pelo algoritmo vs. links externos na descrição
+- **Validação de produto antes de criar**: lançou **newsletter gratuita** para coletar leads e validar interesse
+- Depois de validado: e-book por **US$30 com distribuição global**
+
 **Estratégia de crescimento do Case 5:**
 - Pesquisa minuciosa de canais concorrentes + palavras-chave para mapear **dores da audiência**
 - **Remodelagem incremental**: pegar vídeos com pico modesto (ex: 500 views) e remodelar título/thumbnail para gerar reexposição e ganho incremental
