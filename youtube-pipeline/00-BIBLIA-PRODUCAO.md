@@ -23,6 +23,22 @@
 
 ---
 
+## O MODELO DE NEGÓCIO — CONCEITOS FUNDAMENTAIS
+
+**O ativo:** canal anônimo no YouTube operado por IA, receita em dólar, pouca dependência da presença do dono.
+
+| Vantagem | Detalhe |
+|---|---|
+| Margem líquida | Normalmente **acima de 75%** |
+| Escala | Global e imediata — qualquer país, qualquer audiência |
+| Investimento inicial | Baixo — sem estoque, sem funcionários no início |
+| Moeda | **Recebimento em dólar** — alavancagem cambial automática |
+
+> **Realismo do método:** resultados variam por pessoa e exigem trabalho e disciplina.
+> Não é enriquecimento instantâneo — é execução consistente que gera resultado real.
+
+---
+
 ## OS 4 PILARES DO RPM (Channels PRO® — Cassiano Girardi)
 > Confirmado nas imagens da aula ao vivo. Estes são os 4 pilares EXATOS do método.
 
