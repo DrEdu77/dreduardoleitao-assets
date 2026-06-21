@@ -348,8 +348,9 @@ Não espere o YouTube te dar um RPM bom. ESCOLHA o RPM antes de publicar.
 | Histórico | 9 anos no Japão, 12h/dia em fábrica |
 | Situação ao voltar | Reserva para apenas 6 meses de vida |
 | Início | Inspirado por podcasts + aulas da Channels |
-| Resultado hoje | **3 canais monetizados** |
-| Primeiro mês monetizado | **R$504.600** |
+| Canais | Começou com **5**, reduziu para **3 canais ativos** e monetizados |
+| Views virais | Vídeos específicos alcançaram **2 a 3 milhões de views** |
+| Primeiro mês monetizado | **US$87.000 = R$504.600** (câmbio R$5,80) |
 | Próximos passos | Abrir CNPJ, contratar roteirista/editores, escalar |
 
 **Fatores de sucesso relatados:**
