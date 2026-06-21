@@ -606,6 +606,13 @@ BLOCO 6 — [CTA DE VENDAS] (oferta de infoproduto)
 
 ## RELATÓRIO DE PERFORMANCE FINANCEIRA (dados reais Channels PRO®)
 
+### Recomendação oficial da organização sobre custos:
+- Usar **ferramentas pagas** — evitar soluções gratuitas para operação profissional
+- Custo típico estimado: **~R$100/mês** de assinatura de IA + custos de API para automações avançadas
+- Comparativo: "custo de um estagiário" — mas sem férias, sem 13º, sem encargos
+- API + automações aumentam o custo mas **multiplicam a escala**
+- Nossa situação: Claude + ElevenLabs + CapCut = R$790/mês → escala global já no mês 1
+
 ### ⚡ CUSTO REAL CONFIRMADO (Case 3 — operador R$202K/mês):
 > **R$302/mês** — CapCut + Claude + ChatGPT. Meta AI para imagens (grátis). Trello (grátis).
 > Higgsfield NÃO é necessário. ElevenLabs também NÃO consta no stack deles.
