@@ -23,6 +23,29 @@
 
 ---
 
+## OS 3 MOTORES DO MÉTODO (Mecanismos Centrais)
+
+### Motor 1 — PRODUÇÃO: "Fábrica Invisível"
+> A IA derrubou a barreira de produção.
+- **Antes**: semanas de trabalho + equipe de ~5 pessoas
+- **Agora**: média de **29 minutos por vídeo** (roteiro, voz, imagem e edição)
+- A "fábrica" é invisível — ninguém sabe que é IA, ninguém sabe quem é o dono
+
+### Motor 2 — RECEITA: Jogo do RPM em Dólar
+> Otimizar a receita por mil visualizações (RPM) antes de publicar o primeiro vídeo.
+- RPM depende de: **nicho + referências + idioma + watch time**
+- Caso documentado: **60 vídeos (2/dia) → R$83.000/mês**
+- ROI: **R$20,95 para cada R$1 investido = 1.995%**
+- RPM é escolha estratégica, não sorte
+
+### Motor 3 — OTIMIZAÇÃO: Momentum
+> Estratégia para viralizar vídeos de forma consistente.
+- Foco em nichos de **alto RPM** (o "Nicho dos R$630K" — financeiro americano)
+- Modelagem ao vivo de canal vencedor como referência
+- Consistência cria momentum → o algoritmo amplifica quem não para
+
+---
+
 ## O MODELO DE NEGÓCIO — CONCEITOS FUNDAMENTAIS
 
 **O ativo:** canal anônimo no YouTube operado por IA, receita em dólar, pouca dependência da presença do dono.
