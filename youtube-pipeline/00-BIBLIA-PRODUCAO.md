@@ -121,6 +121,25 @@
 
 ---
 
+## DECISÕES ESTRATÉGICAS RECOMENDADAS (organização Channels PRO®)
+
+### Fazer:
+- Canais em **inglês**, público **50+**, vídeos **longos educativos/documentais**
+- Usar **biblioteca de prompts padronizados** (agentes por canal) para gerar e avaliar roteiros automaticamente
+- Priorizar nichos com **bom RPM** e referências amplas de canais vencedores
+
+### NÃO FAZER (nichos a evitar):
+| Nicho | Motivo |
+|---|---|
+| Música | RPM muito baixo, direitos autorais complexos |
+| YouTube Kids | CPM limitado por regulação (COPPA), restrições de ads |
+| Meditação sem monetização | Audiência passiva, baixa intenção de compra, CPM baixo |
+
+> Regra geral: se o anunciante não quer pagar muito para aparecer no nicho, o RPM será baixo.
+> Escolha nichos onde **marcas premium pagam caro por atenção** (finanças, saúde 50+, jurídico, imóveis).
+
+---
+
 ## PÚBLICO-ALVO DETALHADO
 
 | Característica | Detalhe |
