@@ -1,0 +1,33 @@
+# API keys e credenciais — NUNCA commitar
+.env
+*.env
+.env.*
+!.env.example
+
+# Secrets
+client_secrets.json
+token.json
+credentials.json
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output gerado pelo pipeline (arquivos grandes)
+youtube-pipeline/automation/output/
+youtube-pipeline/automation/temp/
+*.mp3
+*.mp4
+*.wav
