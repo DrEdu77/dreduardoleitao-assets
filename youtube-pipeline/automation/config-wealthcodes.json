@@ -1,0 +1,71 @@
+{
+  "channel": {
+    "name": "WealthCodes",
+    "handle": "@WealthCodesYT",
+    "email": "wealthcodesyoutube@gmail.com",
+    "niche": "personal finance, investing, passive income, financial independence, money management",
+    "target_audience": "Americans 40-65 building wealth, pre-retirement — want proven strategies, not get-rich-quick",
+    "language": "en",
+    "country": "US",
+    "tone": "confident, data-driven, trustworthy — like a smart friend who is a CFP",
+    "reference_channels": ["Graham Stephan", "Andrei Jikh", "Minority Mindset"],
+    "publish_schedule": {
+      "days": ["wednesday", "saturday"],
+      "hour_est": 14
+    }
+  },
+  "video": {
+    "resolution": "1920x1080",
+    "fps": 30,
+    "duration_target_minutes": 45,
+    "images_per_video": 450,
+    "seconds_per_image": 6,
+    "background_music_volume": 0.10,
+    "transition_duration": 0.3
+  },
+  "audio": {
+    "chunk_size_chars": 2400,
+    "stability": 0.52,
+    "similarity_boost": 0.78,
+    "style": 0.30,
+    "use_speaker_boost": true,
+    "output_format": "mp3_44100_192"
+  },
+  "script": {
+    "word_count_target": 7500,
+    "chapters": 8,
+    "facts_count": 50,
+    "mid_roll_positions": [7, 14, 21, 28, 35, 42, 48],
+    "content_rules": [
+      "Always present data-backed facts with real numbers (returns, percentages, years)",
+      "Include historical context: S&P 500 historical average, compound interest examples",
+      "Never give specific investment advice — say 'consult your financial advisor'",
+      "Focus on financial literacy and principles, not stock picks",
+      "Include actionable takeaways at each chapter end"
+    ]
+  },
+  "thumbnail": {
+    "width": 1280,
+    "height": 720,
+    "title_color": "#00C851",
+    "subtitle_color": "#FFFFFF",
+    "overlay_opacity": 0.60
+  },
+  "youtube": {
+    "category_id": "27",
+    "privacy": "private",
+    "made_for_kids": false,
+    "ai_disclosure": true,
+    "default_tags": [
+      "personal finance", "investing", "passive income", "financial freedom",
+      "money management", "compound interest", "stock market", "retirement planning",
+      "financial independence", "wealth building", "budgeting", "savings",
+      "how to invest", "financial literacy", "money tips"
+    ]
+  },
+  "pexels": {
+    "per_page": 15,
+    "orientation": "landscape",
+    "size": "large"
+  }
+}

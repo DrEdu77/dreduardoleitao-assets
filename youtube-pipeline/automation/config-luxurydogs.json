@@ -1,0 +1,72 @@
+{
+  "channel": {
+    "name": "LuxuryDogs World",
+    "handle": "@LuxuryDogsWorld",
+    "email": "luxurydogsworldyt@gmail.com",
+    "niche": "rare dogs, expensive dog breeds, luxury pets, cute dogs, unusual dog breeds worldwide",
+    "target_audience": "Dog lovers 25-60 fascinated by luxury, rare breeds, and exotic pets — US + UK + AU",
+    "language": "en",
+    "country": "US",
+    "tone": "aspirational, elegant, warm — like a luxury travel host but for dogs",
+    "reference_channels": ["The Dodo (dogs)", "Bored Panda Dogs", "Amazing Dogs"],
+    "publish_schedule": {
+      "days": ["tuesday", "friday"],
+      "hour_est": 17
+    }
+  },
+  "video": {
+    "resolution": "1920x1080",
+    "fps": 30,
+    "duration_target_minutes": 20,
+    "images_per_video": 200,
+    "seconds_per_image": 5,
+    "background_music_volume": 0.12,
+    "transition_duration": 0.25
+  },
+  "audio": {
+    "chunk_size_chars": 2400,
+    "stability": 0.48,
+    "similarity_boost": 0.72,
+    "style": 0.40,
+    "use_speaker_boost": true,
+    "output_format": "mp3_44100_192"
+  },
+  "script": {
+    "word_count_target": 3500,
+    "chapters": 5,
+    "facts_count": 15,
+    "mid_roll_positions": [7, 14],
+    "content_rules": [
+      "Always include the price range for the breed (purchase price + annual cost)",
+      "Include the country of origin and historical background for each breed",
+      "Describe temperament, size, and care requirements concisely",
+      "Highlight what makes each breed rare or exclusive (limited breeding, royal history, etc.)",
+      "Include a 'fun fact' at the end of each breed segment to boost engagement",
+      "Format: '10 Rarest/Most Expensive Dogs in the World' style listicles perform best"
+    ]
+  },
+  "thumbnail": {
+    "width": 1280,
+    "height": 720,
+    "title_color": "#FFD700",
+    "subtitle_color": "#FFFFFF",
+    "overlay_opacity": 0.50
+  },
+  "youtube": {
+    "category_id": "15",
+    "privacy": "private",
+    "made_for_kids": false,
+    "ai_disclosure": true,
+    "default_tags": [
+      "rare dog breeds", "most expensive dogs", "luxury dogs", "cute dogs",
+      "unusual dog breeds", "rare dogs", "expensive puppies", "dog breeds around the world",
+      "rarest dogs", "most beautiful dogs", "exotic dog breeds", "luxury pets",
+      "dog facts", "amazing dogs", "dog compilation"
+    ]
+  },
+  "pexels": {
+    "per_page": 15,
+    "orientation": "landscape",
+    "size": "large"
+  }
+}

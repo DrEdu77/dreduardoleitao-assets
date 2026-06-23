@@ -1,0 +1,71 @@
+{
+  "channel": {
+    "name": "CatFacts Daily",
+    "handle": "@CatFactsDaily",
+    "email": "catfactsdailyyoutube@gmail.com",
+    "niche": "cats, cat behavior, cat breeds, funny cats, cat care, cat facts",
+    "target_audience": "Cat lovers worldwide 18-55 — curious, emotional, share everything about cats",
+    "language": "en",
+    "country": "US",
+    "tone": "warm, charming, fun, enthusiastic — the voice of a joyful cat obsessive",
+    "reference_channels": ["The Dodo (cats)", "Cole and Marmalade", "Kitten Lady"],
+    "publish_schedule": {
+      "days": ["monday", "thursday"],
+      "hour_est": 16
+    }
+  },
+  "video": {
+    "resolution": "1920x1080",
+    "fps": 30,
+    "duration_target_minutes": 15,
+    "images_per_video": 150,
+    "seconds_per_image": 5,
+    "background_music_volume": 0.12,
+    "transition_duration": 0.25
+  },
+  "audio": {
+    "chunk_size_chars": 2400,
+    "stability": 0.45,
+    "similarity_boost": 0.70,
+    "style": 0.50,
+    "use_speaker_boost": true,
+    "output_format": "mp3_44100_192"
+  },
+  "script": {
+    "word_count_target": 2500,
+    "chapters": 4,
+    "facts_count": 25,
+    "mid_roll_positions": [6, 12],
+    "content_rules": [
+      "Every fact must be surprising or counter-intuitive",
+      "Include breed-specific facts for popular breeds (Maine Coon, Siamese, Persian, Ragdoll)",
+      "Always mention how each fact relates to the cat-owner relationship",
+      "Use relatable analogies that cat owners instantly recognize",
+      "End with a fun viewer challenge: 'Does your cat do this? Comment below!'"
+    ]
+  },
+  "thumbnail": {
+    "width": 1280,
+    "height": 720,
+    "title_color": "#FF6B9D",
+    "subtitle_color": "#FFFFFF",
+    "overlay_opacity": 0.45
+  },
+  "youtube": {
+    "category_id": "15",
+    "privacy": "private",
+    "made_for_kids": false,
+    "ai_disclosure": true,
+    "default_tags": [
+      "cat facts", "cats", "cat behavior", "cat breeds", "funny cats",
+      "cat care", "kitten", "cat lovers", "cat video", "cat compilation",
+      "cat facts you didnt know", "amazing cats", "cute cats", "cat quiz",
+      "cat personality"
+    ]
+  },
+  "pexels": {
+    "per_page": 15,
+    "orientation": "landscape",
+    "size": "large"
+  }
+}

@@ -1,11 +1,17 @@
 """
 YouTube Faceless Pipeline — Main Orchestrator
-BodyTruth Channel | Dr. Eduardo Leitão
+Multi-Channel | Dr. Eduardo Leitão
 
 Usage:
   python pipeline.py --title "50 Shocking Facts About Your Spine"
-  python pipeline.py --title "..." --skip-script  (use existing script)
-  python pipeline.py --title "..." --dry-run      (no YouTube upload)
+  python pipeline.py --title "..." --channel cryptotruth
+  python pipeline.py --title "..." --skip-script
+  python pipeline.py --title "..." --dry-run
+  python pipeline.py --list-channels
+
+Channels:
+  bodytruth    (default) — Health/spine, CPM $10-15
+  cryptotruth            — Cryptocurrency, CPM $30-60
 """
 
 import os, sys, json, argparse, time
@@ -26,20 +32,34 @@ from modules.thumbnail_gen import generate_thumbnail
 from modules.seo_gen       import generate_seo
 from modules.youtube_upload import upload_video
 
-CONFIG_PATH = Path(__file__).parent / "config.json"
+CHANNEL_CONFIGS = {
+    "bodytruth":    "config.json",
+    "cryptotruth":  "config-cryptotruth.json",
+    "wealthcodes":  "config-wealthcodes.json",
+    "catfacts":     "config-catfacts.json",
+    "luxurydogs":   "config-luxurydogs.json",
+}
 
-def load_config() -> dict:
-    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+def load_config(channel: str = "bodytruth") -> dict:
+    filename = CHANNEL_CONFIGS.get(channel.lower())
+    if not filename:
+        raise ValueError(f"Unknown channel: '{channel}'. Available: {list(CHANNEL_CONFIGS.keys())}")
+    config_path = Path(__file__).parent / filename
+    if not config_path.exists():
+        raise FileNotFoundError(f"Config not found: {config_path}")
+    with open(config_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def run_pipeline(title: str, skip_script: bool = False,
+def run_pipeline(title: str, channel: str = "bodytruth",
+                 skip_script: bool = False,
                  skip_audio: bool = False, dry_run: bool = False,
                  existing_script_path: str = None):
 
-    config = load_config()
+    config = load_config(channel)
+    channel_name = config["channel"]["name"]
     t0 = time.time()
     print(f"\n{'='*60}")
-    print(f" BODYTRU TH PIPELINE — {title[:50]}")
+    print(f" {channel_name.upper()} PIPELINE — {title[:50]}")
     print(f"{'='*60}\n")
 
     # ── STEP 1: Script ──────────────────────────────────────────
@@ -125,16 +145,33 @@ def run_pipeline(title: str, skip_script: bool = False,
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="BodyTruth YouTube Pipeline")
-    parser.add_argument("--title",        required=True, help="Video title")
-    parser.add_argument("--script",       default=None,  help="Path to existing script file")
-    parser.add_argument("--skip-script",  action="store_true")
-    parser.add_argument("--skip-audio",   action="store_true")
-    parser.add_argument("--dry-run",      action="store_true", help="Skip YouTube upload")
+    parser = argparse.ArgumentParser(description="YouTube Faceless Multi-Channel Pipeline")
+    parser.add_argument("--title",          required=False, default=None, help="Video title")
+    parser.add_argument("--channel",        default="bodytruth",
+                        choices=list(CHANNEL_CONFIGS.keys()),
+                        help="Channel to produce for (default: bodytruth)")
+    parser.add_argument("--script",         default=None,  help="Path to existing script file")
+    parser.add_argument("--skip-script",    action="store_true")
+    parser.add_argument("--skip-audio",     action="store_true")
+    parser.add_argument("--dry-run",        action="store_true", help="Skip YouTube upload")
+    parser.add_argument("--list-channels",  action="store_true", help="List available channels")
     args = parser.parse_args()
+
+    if args.list_channels:
+        print("\nAvailable channels:")
+        for key, cfg_file in CHANNEL_CONFIGS.items():
+            cfg_path = Path(__file__).parent / cfg_file
+            exists = "OK" if cfg_path.exists() else "MISSING CONFIG"
+            print(f"  --channel {key:<14} ({cfg_file}) [{exists}]")
+        print()
+        sys.exit(0)
+
+    if not args.title:
+        parser.error("--title is required unless --list-channels is used")
 
     run_pipeline(
         title=args.title,
+        channel=args.channel,
         skip_script=args.skip_script,
         skip_audio=args.skip_audio,
         dry_run=args.dry_run,
