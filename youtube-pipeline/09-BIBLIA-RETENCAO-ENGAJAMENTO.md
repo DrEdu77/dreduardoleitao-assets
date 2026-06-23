@@ -21,6 +21,134 @@ Antes de escrever qualquer roteiro, pesquisar no YouTube os vídeos com MAIS VIE
 
 ---
 
+## REFERÊNCIAS DE VÍDEOS VIRAIS POR NICHO
+*Pesquisar sempre antes de criar — modelar o que já funciona*
+*Última atualização: 23/06/2026*
+
+### 🏃 BODYTRUTH — Saúde / Corpo / Coluna
+
+| # | Canal | Título EN | Views | Duração | Insight |
+|---|---|---|---|---|---|
+| 1 | KLT | Human Body Size Comparison | **53M** | 46 min | Comparação visual — escala impressiona |
+| 2 | TED-Ed | What would happen if you didn't drink water? | **23M** | – | Pergunta simples + consequência física |
+| 3 | Peekaboo Kidz | How Do Your Body Parts Work? | **21M** | 43 min | Educação visual + animação |
+| 4 | TED-Ed | How the food you eat affects your brain | **21M** | – | Saúde + cérebro = dual appeal |
+| 5 | Big Bang Academy | What's In Our Digestive System? | **20M** | – | Sistemas internos fascina |
+| 6 | TED-Ed | How do cigarettes affect the body? | **19M** | – | Impacto negativo gera clicks |
+| 7 | BRIGHT SIDE | A Journey Inside Your Body | **18M** | – | Tour interno do corpo |
+
+**Fórmulas que funcionam no nicho:**
+- "What happens to your [ÓRGÃO] when you [AÇÃO]" — pergunta + resposta física
+- "[X] Things Secretly Destroying Your [PARTE DO CORPO]" — alerta + culpa
+- Comparação visual / animação 3D do corpo
+- Vídeos longos (40-46 min) performam bem no nicho saúde
+
+---
+
+### ⚽ SOCCERTRUTH — Futebol / Copa / Recordes
+
+| # | Canal | Título EN | Views | Duração | Insight |
+|---|---|---|---|---|---|
+| 1 | KickFlix | 20 Things You Didn't Know About Football | **7.1M** | 19 min | "Didn't Know" + número específico = ouro |
+| 2 | Score 90 | Greatest World Records in Football | **6.1M** | 8 min | Recordes mundiais = tema evergreen |
+| 3 | Peekaboo Kidz | FIFA World Cup Special \| How Football Started | **3.9M** | 16 min | História da Copa = perene + Copa-boost |
+| 4 | Top Bins | The Entire History Of Football | **1M** | 16 min | "Entire History" = compradores |
+| 5 | Futbolistics | 8 Wild Charts Breaking Down Football | **822K** | 16 min | Dados + gráficos = credibilidade |
+| 6 | ESPN FC | Messi breaks record for most FIFA World Cup goals | **231K** | 13 min | ⚡ Copa 2026 trending AGORA |
+| 7 | Beyond Football | 2 Hours of Football Records to Fall Asleep To | **137K** | 2h16 | Long-form relaxante = nicho próprio |
+
+**Fórmulas que funcionam no nicho:**
+- "[X] Things You Didn't Know About Football" — surpresa + número
+- "Greatest World Records" — superlativo + esporte = combo viral
+- Timing Copa do Mundo = views 10x maiores nos primeiros 7 dias
+- Debate Messi vs Pelé = engajamento explosivo (opinião forte dos dois lados)
+
+---
+
+### ₿ CRYPTOTRUTH — Bitcoin / Crypto / DeFi
+
+| # | Canal | Título EN | Views | Duração | Insight |
+|---|---|---|---|---|---|
+| 1 | 3Blue1Brown | But how does bitcoin actually work? | **17M** | 25 min | "Actually work" = desmistificação matemática |
+| 2 | Mrwhosetheboss | How Cryptocurrency ACTUALLY works. | **11M** | 14 min | "ACTUALLY" em maiúsculas = promessa de verdade |
+| 3 | Khan Sir | What Is Crypto Currency and Bitcoin? | **9.1M** | 54 min | Explicação completa = referência permanente |
+| 4 | Coffeezilla | Exposing Tether - Bitcoin's Biggest Secret | **4.5M** | 36 min | "Exposing" + "Biggest Secret" = investigação |
+| 5 | Professor Of How | How Cryptocurrency ACTUALLY Works? 3D Animation | **4.4M** | 19 min | Animação 3D + explicação = educação premium |
+| 6 | X Empire | Bitcoin's creator unveiled? Theories about Satoshi Nakamoto | **4.2M** | 30 min | Mistério do criador = curiosidade permanente |
+| 7 | ColdFusion | Where Did Bitcoin Come From? – The True Story | **2.8M** | 23 min | "True Story" = narrativa investigativa |
+
+**Fórmulas que funcionam no nicho:**
+- "How [X] ACTUALLY works" — promessa de revelar a verdade por trás do hype
+- "Exposing [NOME/EMPRESA] — The Secret Behind..." — investigação = viralizável
+- "Satoshi Nakamoto" = curiosidade perene (identidade do criador)
+- Documentário longo (36-54 min) performa bem em crypto
+- Animação 3D do blockchain = alto compartilhamento
+
+---
+
+### 💰 WEALTHCODES — Finanças Pessoais / Investimento
+
+| # | Canal | Título EN | Views | Duração | Insight |
+|---|---|---|---|---|---|
+| 1 | James Jani | The untold truth about money: how to build wealth from nothing | **19M** | 17 min | "Untold truth" + "from nothing" = esperança + segredo |
+| 2 | Nischa (accountant) | Financial habits keeping you poor | **11M** | 8 min | Culpa + hábitos = altíssimo engajamento |
+| 3 | James Jani | Escaping the rat race: what school never taught you about money | **8.9M** | 17 min | "School never taught" = raiva + curiosidade |
+| 4 | Mark Tilbury | How To Manage Your Money Like The 1% | **6M** | 33 min | Aspiracional + tático = combo premium |
+| 5 | The Ramsey Show | 5 Things That Will Make You Rich | **5.1M** | 7 min | Número pequeno + promessa grande |
+| 6 | Mohnish Pabrai (Diary of a CEO) | Fastest way to financial freedom | **5.7M** | 1h46 | Autoridade + longa entrevista = confiança |
+| 7 | Mel Robbins + David Bach | 5 Money Rules That Will Change Your Life | **3.4M** | 1h09 | Regras simples + autoridade dupla |
+
+**Fórmulas que funcionam no nicho:**
+- "Untold truth about money" — segredo que querem esconder de você
+- "Habits keeping you POOR" — culpa + identidade = shares obrigatórios
+- "What school never taught you about [TEMA]" — revolta + curiosidade
+- "Like the 1%" — aspiracional + exclusivo
+- Entrevistas longas (1h+) com autoridades reconhecidas funcionam muito bem
+
+---
+
+### 🐱 CATFACTS DAILY — Gatos / Raças / Comportamento
+
+| # | Canal | Título EN | Views | Duração | Insight |
+|---|---|---|---|---|---|
+| 1 | BRIGHT SIDE | HOW TO UNDERSTAND YOUR CAT BETTER | **24M** | 9 min | Urgência emocional + "understand" = relação |
+| 2 | Jaw-Dropping Facts | Cat Tail Language - Cat Tail Meaning | **14M** | Short | Body language = conteúdo de alto compartilhamento |
+| 3 | Feline Fanatics | 22 Everyday Things That Break Your Cat's Heart | **3.3M** | 19 min | Culpa do dono = altíssimo engajamento |
+| 4 | BRIGHT SIDE | 40 Awesome Cat Facts to Understand Them Better | **3M** | 12 min | Número alto de fatos = autoridade |
+| 5 | List 25 | 25 BIZARRE Cat Facts You Need To Know | **2.9M** | 9 min | "Bizarre" + "Need To Know" = urgência |
+| 6 | Jaw-Dropping Facts | Strange Cat Behaviors Explained (Compilation) | **2.4M** | 25 min | Explicação comportamental = evergreen |
+| 7 | Jaw-Dropping Facts | 16 Things Your Cats Do for You Without You Knowing | **2.2M** | 9 min | Reciprocidade emocional = compartilhamento |
+
+**Fórmulas que funcionam no nicho:**
+- "HOW TO UNDERSTAND YOUR CAT" — empatia + curiosidade
+- "Things That BREAK Your Cat's Heart" — culpa emocional = viral entre donos
+- "What Your Cat Does FOR YOU" — reciprocidade = emocional
+- Body language / tail positions = conteúdo perene compartilhável
+- Compilações de comportamento = bom para long-form
+
+---
+
+### 🐕 LUXURYDOGS WORLD — Cachorros Raros / Luxo / Preços
+
+| # | Canal | Título EN | Views | Duração | Insight |
+|---|---|---|---|---|---|
+| 1 | 4 Ever Green | 15 Most Expensive Dogs in the World | **15M** | 8 min | Superlativo + preço + número = viral |
+| 2 | Forrest Galante | Private Tour Of the World's Most Expensive Pet Show | **4.9M** | 12 min | "Private Tour" = exclusividade |
+| 3 | George Mavrakis | Inside Asia's RICHEST Exotic Pet Marketplace!! | **2.9M** | 35 min | Tour presencial + RICH = aspiracional |
+| 4 | The Curious Mind | 10 Expensive Dogs That Only the Rich Can Buy | **1.7M** | 25 min | "Only the Rich" = aspiracional + exclusão |
+| 5 | 4 Ever Green | Rare Dogs That Only Millionaires Buy | **493K** | 14 min | "Millionaires Buy" = status + raridade |
+| 6 | MsMojo | Top 10 Most Expensive Dog Breeds in the World | **96K** | 13 min | Top 10 + ranking = formato clássico |
+| 7 | Alux.com | 10 Most Expensive Dog Breeds | **167K** | 2 min | Versão curta = boa para top-of-funnel |
+
+**Fórmulas que funcionam no nicho:**
+- "[X] Most Expensive Dogs in the World" — ranking + preços = combo perfeito
+- "Only Millionaires / Only the Rich Can Buy" — exclusão aspiracional
+- "Private Tour" / "Inside [EVENTO]" — exclusividade + acesso especial
+- Formatos curtos (8-12 min) performam melhor que longos neste nicho
+- Preços específicos em destaque na thumbnail = click obrigatório
+
+---
+
 ## ESTRUTURA OBRIGATÓRIA DE TODO VÍDEO
 
 ### 1. HOOK (0:00 — 0:45) — OS 45 SEGUNDOS MAIS IMPORTANTES DO VÍDEO
@@ -273,3 +401,11 @@ Hook — o momento em que aconteceu (0:00)
 | 23/06/2026 | Subscribe CTA deve vir em 0:45 (após hook) E no meio do vídeo — não só no final | Análise canais 1M+ views |
 | 23/06/2026 | Pedir opinião ANTES de revelar comparação cria investimento emocional do espectador | Fórmula SoccerTruth Messi vs Pelé |
 | 23/06/2026 | Vídeos sobre trending/notícia recente devem ser mais curtos (15-20 min) para capitalizar o momento | Copa 2026 — timing crítico |
+| 23/06/2026 | BodyTruth: Comparação visual (tamanho, escala) + animação 3D do corpo domina o nicho saúde (53M views) | KLT Human Body Size Comparison |
+| 23/06/2026 | SoccerTruth: "X Things You Didn't Know About Football" é a fórmula dominante no futebol (7.1M views) | KickFlix |
+| 23/06/2026 | CryptoTruth: "How X ACTUALLY works" + "Exposing" são as duas fórmulas mais fortes no nicho crypto | 3Blue1Brown 17M / Coffeezilla 4.5M |
+| 23/06/2026 | WealthCodes: "Habits keeping you POOR" gera culpa + shares = viraliza entre classe média alta | Nischa 11M views |
+| 23/06/2026 | WealthCodes: "What school never taught you about money" = revolta + curiosidade = combo imbatível | James Jani 8.9M |
+| 23/06/2026 | CatFacts: "Things That BREAK Your Cat's Heart" = culpa emocional de dono = viral garantido | Feline Fanatics 3.3M |
+| 23/06/2026 | LuxuryDogs: Formatos curtos (8-12 min) + preços específicos na thumbnail = melhor performance | 4 Ever Green 15M |
+| 23/06/2026 | Timing Copa do Mundo 2026 = janela de oportunidade única para SoccerTruth — publicar AGORA | ESPN FC Messi record 231K em 21h |
