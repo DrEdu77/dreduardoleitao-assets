@@ -47,9 +47,15 @@
   "thumbnail": {
     "width": 1280,
     "height": 720,
-    "title_color": "#00C851",
-    "subtitle_color": "#FFFFFF",
-    "overlay_opacity": 0.60
+    "background_color": "#0A1A0A",
+    "electric_color": "#00FF41",
+    "premium_color": "#FFD700",
+    "text_primary_color": "#00FF41",
+    "text_secondary_color": "#FFFFFF",
+    "font_primary": "Impact",
+    "font_secondary": "Arial Bold",
+    "overlay_opacity": 0.60,
+    "style": "verde escuro premium + verde neon eletrico + dourado — dinheiro, codigo, exclusividade, matriz financeira"
   },
   "youtube": {
     "category_id": "27",

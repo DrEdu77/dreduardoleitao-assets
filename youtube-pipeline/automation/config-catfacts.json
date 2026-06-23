@@ -47,9 +47,15 @@
   "thumbnail": {
     "width": 1280,
     "height": 720,
-    "title_color": "#FF6B9D",
-    "subtitle_color": "#FFFFFF",
-    "overlay_opacity": 0.45
+    "background_color": "#1A0030",
+    "electric_color": "#FF1493",
+    "premium_color": "#00FFFF",
+    "text_primary_color": "#FF1493",
+    "text_secondary_color": "#FFFFFF",
+    "font_primary": "Impact",
+    "font_secondary": "Arial Bold",
+    "overlay_opacity": 0.45,
+    "style": "roxo escuro premium + rosa eletrico + ciano — pop, fofo, surpreendente, contraste maximo entre tons quentes e frios"
   },
   "youtube": {
     "category_id": "15",

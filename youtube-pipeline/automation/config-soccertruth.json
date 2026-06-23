@@ -32,12 +32,16 @@
     "use_speaker_boost": true
   },
   "thumbnail": {
-    "background_color": "#1A1A2E",
-    "accent_color": "#FFD700",
-    "text_color": "#FFFFFF",
-    "style": "dramatic split: Messi left (celebrating) + Pelé right (B&W) + '18 vs 12' in huge gold numbers + 'GREATEST OF ALL TIME?' text",
-    "font": "Impact or Anton",
-    "dimensions": "1280x720"
+    "width": 1280,
+    "height": 720,
+    "background_color": "#0A0F2E",
+    "electric_color": "#FFD700",
+    "premium_color": "#FF0000",
+    "text_primary_color": "#FFD700",
+    "text_secondary_color": "#FFFFFF",
+    "font_primary": "Impact",
+    "font_secondary": "Arial Bold",
+    "style": "split comparativo: jogador A esquerda (cor) + jogador B direita (P&B ou cor) + NÚMERO GIGANTE dourado no centro + pergunta em vermelho topo + glow dourado nos elementos principais"
   },
   "seo": {
     "primary_keywords": ["messi world cup record", "messi greatest of all time", "messi vs pele", "world cup 2026 messi"],

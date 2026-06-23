@@ -47,9 +47,15 @@
   "thumbnail": {
     "width": 1280,
     "height": 720,
-    "title_color": "#F7931A",
-    "subtitle_color": "#FFFFFF",
-    "overlay_opacity": 0.60
+    "background_color": "#000000",
+    "electric_color": "#FF6B00",
+    "premium_color": "#FFE500",
+    "text_primary_color": "#FF6B00",
+    "text_secondary_color": "#FFFFFF",
+    "font_primary": "Impact",
+    "font_secondary": "Arial Bold",
+    "overlay_opacity": 0.60,
+    "style": "preto absoluto + laranja bitcoin eletrico + amarelo neon — tela de trading, urgência, drama financeiro"
   },
   "youtube": {
     "category_id": "27",

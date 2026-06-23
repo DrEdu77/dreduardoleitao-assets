@@ -37,9 +37,15 @@
   "thumbnail": {
     "width": 1280,
     "height": 720,
-    "title_color": "#FFD700",
-    "subtitle_color": "#FFFFFF",
-    "overlay_opacity": 0.55
+    "background_color": "#080808",
+    "electric_color": "#39FF14",
+    "premium_color": "#FFFFFF",
+    "text_primary_color": "#39FF14",
+    "text_secondary_color": "#FFFFFF",
+    "overlay_opacity": 0.55,
+    "font_primary": "Impact",
+    "font_secondary": "Arial Bold",
+    "style": "neon on dark — number gigante cor eletrica + texto bold branco + glow verde"
   },
   "youtube": {
     "category_id": "27",
