@@ -38,6 +38,7 @@ CHANNEL_CONFIGS = {
     "wealthcodes":  "config-wealthcodes.json",
     "catfacts":     "config-catfacts.json",
     "luxurydogs":   "config-luxurydogs.json",
+    "soccertruth":  "config-soccertruth.json",
 }
 
 def load_config(channel: str = "bodytruth") -> dict:

@@ -1,0 +1,52 @@
+{
+  "channel": {
+    "name": "SoccerTruth",
+    "handle": "@SoccerTruthFacts",
+    "email": "soccertruthchannel@gmail.com",
+    "niche": "soccer / football facts and history — World Cup, GOAT debates, records, untold stories",
+    "target_audience": "Americans and English-speaking fans 18-50 passionate about soccer, especially during World Cup 2026",
+    "cpm_estimate": "$8-18",
+    "tone": "passionate, factual, storytelling — like a sports journalist who also loves statistics",
+    "language": "English"
+  },
+  "script": {
+    "word_count_target": 4000,
+    "facts_count": 30,
+    "format": "trending — 20 min video for viral/trending content, not full 45min documentary",
+    "chapters": 6,
+    "content_rules": [
+      "Always cite FIFA official stats",
+      "Acknowledge that Pelé and Messi comparisons are subjective — present facts, let viewer decide",
+      "Never disrespect any player — objective, factual tone",
+      "Include era context: different rules, quality of opponents, tournament sizes"
+    ],
+    "hook_style": "start with the MOMENT the record was broken — visceral, you-are-there storytelling"
+  },
+  "audio": {
+    "voice_id_override": "L90xzM9HKL8PEJUBcsGt",
+    "model": "eleven_multilingual_v2",
+    "output_format": "mp3_44100_128",
+    "stability": 0.5,
+    "similarity_boost": 0.85,
+    "style": 0.3,
+    "use_speaker_boost": true
+  },
+  "thumbnail": {
+    "background_color": "#1A1A2E",
+    "accent_color": "#FFD700",
+    "text_color": "#FFFFFF",
+    "style": "dramatic split: Messi left (celebrating) + Pelé right (B&W) + '18 vs 12' in huge gold numbers + 'GREATEST OF ALL TIME?' text",
+    "font": "Impact or Anton",
+    "dimensions": "1280x720"
+  },
+  "seo": {
+    "primary_keywords": ["messi world cup record", "messi greatest of all time", "messi vs pele", "world cup 2026 messi"],
+    "secondary_keywords": ["most goals world cup history", "miroslav klose record broken", "messi 18 goals", "soccer GOAT debate"],
+    "publish_days": ["Monday", "Wednesday"],
+    "publish_time_est": "14:00"
+  },
+  "monetization": {
+    "affiliate_links": ["FIFA official store", "Soccer jerseys Amazon", "Sports betting disclosure"],
+    "sponsor_niche": "sports apps, streaming services, fantasy soccer"
+  }
+}

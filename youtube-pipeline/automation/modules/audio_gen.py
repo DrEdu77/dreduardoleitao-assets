@@ -31,7 +31,7 @@ def generate_audio(script: dict, config: dict) -> dict:
         audio_bytes = client.text_to_speech.convert(
             voice_id=voice_id,
             text=chunk,
-            model_id="eleven_turbo_v2_5",
+            model_id="eleven_multilingual_v2",
             output_format=audio_cfg["output_format"],
             voice_settings={
                 "stability":        audio_cfg["stability"],
