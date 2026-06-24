@@ -33,7 +33,8 @@ def generate_capcut_project(script: dict, audio: dict, clips: dict, config: dict
     clip_list   = clips["clips"]
     channel     = config["channel"]["name"]
 
-    draft_name = f"{channel} — {title[:45]}"
+    import re
+    draft_name = re.sub(r'[\\/:*?"<>|]', '-', f"{channel} — {title[:45]}").strip()
     SEC        = pycapcut.SEC  # 1_000_000 microseconds
 
     print(f"[capcut_gen] Creating draft: '{draft_name}'")
@@ -59,14 +60,16 @@ def generate_capcut_project(script: dict, audio: dict, clips: dict, config: dict
     # ── B-roll video track ───────────────────────────────────────────────────
     sf.add_track(pycapcut.TrackType.video, "broll")
 
-    # Pre-register all unique materials to avoid duplicates in the project
-    materials_by_path: dict[str, pycapcut.VideoMaterial] = {}
+    # Pre-register materials and read ACTUAL file durations (pyCapCut probes the file)
+    materials_by_path:  dict[str, pycapcut.VideoMaterial] = {}
+    actual_duration_us: dict[str, int]                    = {}
     for clip in clip_list:
         p = clip["path"]
         if p not in materials_by_path:
             mat = pycapcut.VideoMaterial(p)
             sf.add_material(mat)
-            materials_by_path[p] = mat
+            materials_by_path[p]  = mat
+            actual_duration_us[p] = mat.duration   # microseconds from file metadata
 
     # Fill the entire voice duration with looping clips
     current_us = 0
@@ -74,10 +77,12 @@ def generate_capcut_project(script: dict, audio: dict, clips: dict, config: dict
     idx        = 0
 
     while current_us < end_us:
-        clip   = clip_list[idx % len(clip_list)]
-        mat    = materials_by_path[clip["path"]]
-        use_s  = min(clip["duration"], (end_us - current_us) / SEC)
-        use_us = int(use_s * SEC)
+        clip      = clip_list[idx % len(clip_list)]
+        mat       = materials_by_path[clip["path"]]
+        real_us   = actual_duration_us[clip["path"]]  # actual file duration
+        remaining = end_us - current_us
+        # Cap use_us to never exceed the actual file duration (Pexels rounding can differ)
+        use_us    = min(int(clip["duration"] * SEC), real_us, remaining)
         if use_us <= 0:
             break
 
@@ -86,7 +91,7 @@ def generate_capcut_project(script: dict, audio: dict, clips: dict, config: dict
                 mat,
                 pycapcut.Timerange(current_us, use_us),
                 source_timerange=pycapcut.Timerange(0, use_us),
-                volume=0.0,  # mute clip's original audio
+                volume=0.0,
             ),
             track_name="broll",
         )

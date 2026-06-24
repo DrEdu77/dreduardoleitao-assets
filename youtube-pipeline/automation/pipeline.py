@@ -35,7 +35,7 @@ from modules.script_gen      import generate_script
 from modules.audio_gen       import generate_audio
 from modules.image_fetch     import fetch_images
 from modules.video_clip_fetch import fetch_video_clips
-from modules.video_assemble  import assemble_video
+from modules.video_assemble  import assemble_video, assemble_from_clips
 from modules.thumbnail_gen   import generate_thumbnail
 from modules.seo_gen         import generate_seo
 from modules.youtube_upload  import upload_video
@@ -138,9 +138,7 @@ def run_pipeline(title: str, channel: str = "bodytruth",
         print("[STEP 4] Assembling video (FFmpeg)...")
         srt_path = None
         if use_clips and clips:
-            # Build a temporary images-compatible dict so assemble_video works
-            # (clips dir has MP4s which FFmpeg concat handles natively)
-            video = assemble_video(script, audio, images, srt_path, config)
+            video = assemble_from_clips(script, audio, clips, config)
         else:
             video = assemble_video(script, audio, images, srt_path, config)
         print(f"         ✅ Video ready — {video['size_mb']:.1f}MB\n")
