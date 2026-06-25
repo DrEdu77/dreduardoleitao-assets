@@ -43,24 +43,24 @@ KEYWORDS_BY_CHANNEL = {
         8: ["future technology", "innovation digital", "financial revolution"],
     },
     "soccertruth": {
-        # Hook — estádio lotado, troféu, clima épico da Copa
-        0: ["world cup soccer stadium crowd", "football trophy gold", "soccer fans cheering stadium"],
-        # GOAT debate — Messi, jogadas, Argentina, bola no pé
-        1: ["soccer player dribbling ball", "football star goal celebration", "argentina soccer team"],
-        # Pelé era — Brasil, futebol clássico, lenda histórica
-        2: ["brazil football soccer", "soccer legend vintage", "football classic match crowd"],
+        # Hook — estádio Copa do Mundo, troféu FIFA, clima épico
+        0: ["FIFA world cup soccer stadium", "soccer world cup trophy", "soccer fans cheering stadium"],
+        # GOAT debate — Messi, dribles, Argentina, bola no pé
+        1: ["soccer player dribbling", "argentina soccer player", "soccer star goal"],
+        # Pelé era — Brasil, Copa 1970, lenda do soccer
+        2: ["brazil soccer team", "soccer legend classic", "soccer history brazil"],
         # Copa do Mundo — finais, comemorações, gols épicos
-        3: ["soccer world cup final", "football championship celebration", "soccer goal kick"],
-        # Gols e recordes — jogadas espetaculares, placar, estadio noturno
-        4: ["soccer goal celebration crowd", "football match action night", "soccer spectacular play"],
-        # Pelé no Cosmos / USA — futebol americano, New York, estádio EUA
-        5: ["soccer USA america", "football new york stadium", "american soccer match"],
-        # Estatísticas / debate GOAT — dados, análise, troféus
-        6: ["football trophy collection", "soccer records statistics screen", "football champion award"],
-        # Torcida / emoção — fãs apaixonados, bandeiras, festa nas arquibancadas
-        7: ["soccer fans stadium flags", "football supporter passion", "soccer crowd celebration"],
-        # Conclusão / próxima geração — crianças, futuro, sonho futebol
-        8: ["soccer youth kid football", "children playing soccer field", "young football player"],
+        3: ["soccer world cup final", "soccer championship celebration", "soccer goal kick net"],
+        # Gols e recordes — jogadas espetaculares, placar, estádio noturno
+        4: ["soccer goal celebration", "soccer match action", "soccer player scoring"],
+        # Pelé no Cosmos / USA — soccer americano, estádio EUA
+        5: ["soccer USA stadium", "american soccer match", "soccer new york"],
+        # Debate GOAT — troféus, comparativo, análise
+        6: ["soccer trophy award", "soccer world cup winners", "soccer champion celebration"],
+        # Torcida / emoção — fãs, bandeiras, festa nas arquibancadas
+        7: ["soccer fans stadium", "soccer supporters flags", "soccer crowd cheering"],
+        # Conclusão / próxima geração — crianças jogando soccer, futuro
+        8: ["children playing soccer", "kids soccer field", "youth soccer player"],
     },
     "catfacts": {
         0: ["cute cat kitten", "cat domestic pet", "kitten playing"],
