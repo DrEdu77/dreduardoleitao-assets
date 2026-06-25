@@ -34,12 +34,16 @@ sys.path.insert(0, str(Path(__file__).parent))
 from modules.script_gen      import generate_script
 from modules.audio_gen       import generate_audio
 from modules.image_fetch     import fetch_images
-from modules.video_clip_fetch import fetch_video_clips
-from modules.video_assemble  import assemble_video, assemble_from_clips
-from modules.thumbnail_gen   import generate_thumbnail
-from modules.seo_gen         import generate_seo
-from modules.youtube_upload  import upload_video
-from modules.capcut_gen      import generate_capcut_project
+from modules.video_clip_fetch  import fetch_video_clips
+from modules.pixabay_clip_fetch import fetch_pixabay_clips
+from modules.video_assemble   import assemble_video, assemble_from_clips
+from modules.thumbnail_gen    import generate_thumbnail
+from modules.seo_gen          import generate_seo
+from modules.youtube_upload   import upload_video
+from modules.capcut_gen       import generate_capcut_project
+
+# Channels that use Pixabay instead of Pexels for video clips (better sports content)
+PIXABAY_CHANNELS = {"soccertruth"}
 
 CHANNEL_CONFIGS = {
     "bodytruth":    "config.json",
@@ -116,8 +120,13 @@ def run_pipeline(title: str, channel: str = "bodytruth",
 
     # ── STEP 3: Images / Video Clips ────────────────────────────
     if use_capcut or use_clips:
-        print("[STEP 3] Fetching video clips (Pexels Videos)...")
-        clips = fetch_video_clips(script, config)
+        ch = channel.lower()
+        if ch in PIXABAY_CHANNELS:
+            print("[STEP 3] Fetching video clips (Pixabay — soccer-optimized)...")
+            clips = fetch_pixabay_clips(script, config)
+        else:
+            print("[STEP 3] Fetching video clips (Pexels Videos)...")
+            clips = fetch_video_clips(script, config)
         print(f"         ✅ {clips['count']} clips ready "
               f"(~{clips['total_duration']/60:.1f} min raw)\n")
         images = {"images": [], "directory": clips["directory"], "count": 0}
