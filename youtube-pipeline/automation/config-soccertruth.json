@@ -52,5 +52,13 @@
   "monetization": {
     "affiliate_links": ["FIFA official store", "Soccer jerseys Amazon", "Sports betting disclosure"],
     "sponsor_niche": "sports apps, streaming services, fantasy soccer"
+  },
+  "youtube": {
+    "default_tags": ["soccer", "football", "messi", "pele", "goat", "world cup", "soccer facts", "soccer history", "messi vs pele", "greatest of all time", "world cup 2026", "soccer goat debate", "football records", "messi records", "pele records"]
+  },
+  "video": {
+    "fps": 30,
+    "background_music_volume": 0.07,
+    "resolution": "1920x1080"
   }
 }

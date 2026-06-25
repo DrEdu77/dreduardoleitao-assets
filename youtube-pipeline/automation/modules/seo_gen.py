@@ -40,21 +40,30 @@ Generate the following and return as valid JSON:
 IMPORTANT: Return only valid JSON, no markdown, no explanation."""
 
     print(f"[seo_gen] Generating SEO for: {title}")
-    response = client.messages.create(
-        model="claude-opus-4-8",
-        max_tokens=2000,
-        messages=[{"role": "user", "content": prompt}]
-    )
+    try:
+        response = client.messages.create(
+            model="claude-sonnet-4-6",
+            max_tokens=2000,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        raw = response.content[0].text.strip()
+        raw = re.sub(r'^```(?:json)?\n?', '', raw, flags=re.MULTILINE)
+        raw = re.sub(r'\n?```$', '', raw, flags=re.MULTILINE)
+        seo = json.loads(raw)
+    except Exception as e:
+        print(f"[seo_gen] API error ({e}) — using fallback SEO")
+        channel_name = config.get("channel", {}).get("name", "Channel")
+        seo = {
+            "optimized_title": title[:70],
+            "description": f"{title}\n\n{config.get('channel', {}).get('niche', '')}\n\nSubscribe to {channel_name} for weekly videos.",
+            "tags": config.get("youtube", {}).get("default_tags", []),
+            "hashtags": [],
+            "end_screen_script": f"Subscribe to {channel_name} for more. See you next week.",
+            "thumbnail_text": {"main": title[:20].upper(), "sub": ""}
+        }
 
-    raw = response.content[0].text.strip()
-    # Clean up markdown code blocks if present
-    raw = re.sub(r'^```(?:json)?\n?', '', raw, flags=re.MULTILINE)
-    raw = re.sub(r'\n?```$', '', raw, flags=re.MULTILINE)
-
-    seo = json.loads(raw)
-
-    # Add default tags from config
-    default_tags = config["youtube"]["default_tags"]
+    # Add default tags from config (safe fallback if key missing)
+    default_tags = config.get("youtube", {}).get("default_tags", [])
     all_tags = list(dict.fromkeys(seo.get("tags", []) + default_tags))[:25]
     seo["tags"] = all_tags
 
