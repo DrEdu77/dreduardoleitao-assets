@@ -43,24 +43,24 @@ KEYWORDS_BY_CHANNEL = {
         8: ["future technology", "innovation digital", "financial revolution"],
     },
     "soccertruth": {
-        # Hook — estádio Copa do Mundo, troféu FIFA, clima épico
-        0: ["FIFA world cup soccer stadium", "soccer world cup trophy", "soccer fans cheering stadium"],
-        # GOAT debate — Messi, dribles, Argentina, bola no pé
-        1: ["soccer player dribbling", "argentina soccer player", "soccer star goal"],
-        # Pelé era — Brasil, Copa 1970, lenda do soccer
-        2: ["brazil soccer team", "soccer legend classic", "soccer history brazil"],
-        # Copa do Mundo — finais, comemorações, gols épicos
-        3: ["soccer world cup final", "soccer championship celebration", "soccer goal kick net"],
-        # Gols e recordes — jogadas espetaculares, placar, estádio noturno
-        4: ["soccer goal celebration", "soccer match action", "soccer player scoring"],
-        # Pelé no Cosmos / USA — soccer americano, estádio EUA
-        5: ["soccer USA stadium", "american soccer match", "soccer new york"],
-        # Debate GOAT — troféus, comparativo, análise
-        6: ["soccer trophy award", "soccer world cup winners", "soccer champion celebration"],
-        # Torcida / emoção — fãs, bandeiras, festa nas arquibancadas
-        7: ["soccer fans stadium", "soccer supporters flags", "soccer crowd cheering"],
-        # Conclusão / próxima geração — crianças jogando soccer, futuro
-        8: ["children playing soccer", "kids soccer field", "youth soccer player"],
+        # Ch0 Hook — estádio Copa do Mundo, troféu, atmosfera épica
+        0: ["soccer stadium crowd", "soccer world cup trophy", "soccer fans celebration"],
+        # Ch1 GOAT / Messi — jogadas individuais, dribles, gols
+        1: ["soccer player dribbling", "soccer goal scored", "soccer player running"],
+        # Ch2 Pelé / Brasil — futebol clássico, bola, campo verde
+        2: ["soccer ball field", "soccer player kicking", "soccer training"],
+        # Ch3 Copa do Mundo — finais, comemorações, troféus
+        3: ["soccer world cup", "soccer penalty kick", "soccer player celebrating"],
+        # Ch4 Gols e recordes espetaculares
+        4: ["soccer goal", "soccer player jumping", "soccer match action"],
+        # Ch5 Pelé Cosmos / USA — soccer nos EUA
+        5: ["soccer game aerial", "soccer fans cheering", "soccer player skill"],
+        # Ch6 Debate GOAT — comparação, grandeza
+        6: ["soccer trophy award", "soccer stadium night", "soccer team"],
+        # Ch7 Emoção — torcida, bandeiras, festa
+        7: ["soccer fans crowd", "soccer celebration", "soccer match stadium"],
+        # Ch8 Legado — crianças, futuro, inspiração
+        8: ["children playing soccer", "soccer youth training", "soccer inspiration"],
     },
     "catfacts": {
         0: ["cute cat kitten", "cat domestic pet", "kitten playing"],

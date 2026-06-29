@@ -23,9 +23,10 @@ def fetch_video_clips(script: dict, config: dict) -> dict:
     out_dir = os.path.join(os.path.dirname(__file__), "..", "output", "clips", slug)
     os.makedirs(out_dir, exist_ok=True)
 
-    downloaded  = []
-    clip_index  = 0
-    headers     = {"Authorization": api_key}
+    downloaded      = []
+    clip_index      = 0
+    seen_video_ids  = set()   # global dedup — each Pexels video used ONCE only
+    headers         = {"Authorization": api_key}
 
     for chapter_num, keywords in keywords_map.items():
         chapter_clips = 0
@@ -35,7 +36,7 @@ def fetch_video_clips(script: dict, config: dict) -> dict:
                 break
 
             print(f"[clip_fetch] Chapter {chapter_num} — '{keyword}'...")
-            params = {"query": keyword, "per_page": 10, "orientation": "landscape"}
+            params = {"query": keyword, "per_page": 15, "orientation": "landscape"}
 
             try:
                 resp = requests.get(PEXELS_VIDEO_API, headers=headers,
@@ -50,21 +51,25 @@ def fetch_video_clips(script: dict, config: dict) -> dict:
                 if chapter_clips >= CLIPS_PER_CHAPTER:
                     break
 
+                vid_id   = video.get("id")
                 duration = video.get("duration", 0)
+
+                # Skip duplicates already used in another chapter
+                if vid_id in seen_video_ids:
+                    continue
                 if duration < MIN_CLIP_SECONDS or duration > 60:
                     continue
 
-                # Prefer HD (≥1280px wide), fall back to SD
+                # Prefer 4K/HD (≥1920px wide), then HD ≥1280, then SD ≥640
                 files = video.get("video_files", [])
-                hd = [f for f in files
-                      if f.get("quality") == "hd" and (f.get("width") or 0) >= 1280]
-                sd = [f for f in files
-                      if f.get("quality") == "sd" and (f.get("width") or 0) >= 640]
-                best = (hd or sd or [None])[0]
+                uhd  = [f for f in files if (f.get("width") or 0) >= 3840]
+                hd   = [f for f in files if f.get("quality") == "hd" and (f.get("width") or 0) >= 1280]
+                sd   = [f for f in files if f.get("quality") == "sd" and (f.get("width") or 0) >= 640]
+                best = (uhd or hd or sd or [None])[0]
                 if not best:
                     continue
 
-                filename = f"{clip_index:04d}-ch{chapter_num:02d}-{video['id']}.mp4"
+                filename = f"{clip_index:04d}-ch{chapter_num:02d}-{vid_id}.mp4"
                 filepath = os.path.join(out_dir, filename)
 
                 if not os.path.exists(filepath):
@@ -79,6 +84,7 @@ def fetch_video_clips(script: dict, config: dict) -> dict:
                         print(f"[clip_fetch] Download failed: {e}")
                         continue
 
+                seen_video_ids.add(vid_id)
                 downloaded.append({
                     "path":     filepath,
                     "chapter":  chapter_num,

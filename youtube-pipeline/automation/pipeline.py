@@ -47,7 +47,7 @@ from modules.capcut_gen          import generate_capcut_project
 PIXABAY_CHANNELS = set()
 
 # Channels that use curated YouTube clips via yt-dlp (professional sports footage)
-CURATED_CHANNELS = {"soccertruth"}
+CURATED_CHANNELS = set()  # yt-dlp desativado — usar Pexels (royalty-free)
 
 CHANNEL_CONFIGS = {
     "bodytruth":    "config.json",

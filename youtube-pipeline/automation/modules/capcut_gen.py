@@ -33,6 +33,9 @@ def generate_capcut_project(script: dict, audio: dict, clips: dict, config: dict
     clip_list   = clips["clips"]
     channel     = config["channel"]["name"]
 
+    if not clip_list:
+        raise RuntimeError("No clips available — check that clip download succeeded (0 clips found)")
+
     import re
     draft_name = re.sub(r'[\\/:*?"<>|]', '-', f"{channel} — {title[:45]}").strip()
     SEC        = pycapcut.SEC  # 1_000_000 microseconds
@@ -71,20 +74,21 @@ def generate_capcut_project(script: dict, audio: dict, clips: dict, config: dict
             materials_by_path[p]  = mat
             actual_duration_us[p] = mat.duration   # microseconds from file metadata
 
-    # Fill the entire voice duration with looping clips
+    # Use each clip ONCE — no repeats — in chapter order
     current_us = 0
     end_us     = int(voice_secs * SEC)
     idx        = 0
 
-    while current_us < end_us:
-        clip      = clip_list[idx % len(clip_list)]
+    for clip in clip_list:
+        if current_us >= end_us:
+            break
+
         mat       = materials_by_path[clip["path"]]
-        real_us   = actual_duration_us[clip["path"]]  # actual file duration
+        real_us   = actual_duration_us[clip["path"]]
         remaining = end_us - current_us
-        # Cap use_us to never exceed the actual file duration (Pexels rounding can differ)
         use_us    = min(int(clip["duration"] * SEC), real_us, remaining)
         if use_us <= 0:
-            break
+            continue
 
         sf.add_segment(
             pycapcut.VideoSegment(
@@ -98,6 +102,30 @@ def generate_capcut_project(script: dict, audio: dict, clips: dict, config: dict
 
         current_us += use_us
         idx        += 1
+
+    # If clips ran out before voice ended, fill remainder looping from start
+    if current_us < end_us:
+        print(f"[capcut_gen] Clips ended at {current_us/SEC:.0f}s — looping to fill {end_us/SEC:.0f}s")
+        loop_idx = 0
+        while current_us < end_us:
+            clip      = clip_list[loop_idx % len(clip_list)]
+            mat       = materials_by_path[clip["path"]]
+            real_us   = actual_duration_us[clip["path"]]
+            remaining = end_us - current_us
+            use_us    = min(int(clip["duration"] * SEC), real_us, remaining)
+            if use_us <= 0:
+                break
+            sf.add_segment(
+                pycapcut.VideoSegment(
+                    mat,
+                    pycapcut.Timerange(current_us, use_us),
+                    source_timerange=pycapcut.Timerange(0, use_us),
+                    volume=0.0,
+                ),
+                track_name="broll",
+            )
+            current_us += use_us
+            loop_idx   += 1
 
     # ── Save ─────────────────────────────────────────────────────────────────
     sf.save()
