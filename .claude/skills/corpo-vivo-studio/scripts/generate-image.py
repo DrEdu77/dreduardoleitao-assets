@@ -184,6 +184,7 @@ def gerar_via_pexels(tema: str, fmt: str, output_path: Path) -> bool:
 
     req = urllib.request.Request(url)
     req.add_header("Authorization", PEXELS_KEY)
+    req.add_header("User-Agent",    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
 
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
@@ -199,7 +200,9 @@ def gerar_via_pexels(tema: str, fmt: str, output_path: Path) -> bool:
         img_url = src.get("large2x") or src.get("large") or src.get("original")
 
         img_req = urllib.request.Request(img_url)
-        img_req.add_header("User-Agent", "CorpoVivoStudio/1.0")
+        img_req.add_header("User-Agent",    "CorpoVivoStudio/1.0")
+        img_req.add_header("Authorization", PEXELS_KEY)
+        img_req.add_header("Referer",       "https://www.pexels.com/")
         with urllib.request.urlopen(img_req, timeout=30) as img_resp:
             output_path.parent.mkdir(parents=True, exist_ok=True)
             output_path.write_bytes(img_resp.read())
