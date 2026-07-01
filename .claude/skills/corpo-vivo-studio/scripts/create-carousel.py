@@ -288,7 +288,7 @@ def main():
     output_dir.mkdir(parents=True, exist_ok=True)
 
     if args.content:
-        slides_data = json.loads(Path(args.content).read_text(encoding="utf-8"))
+        slides_data = json.loads(Path(args.content).read_text(encoding="utf-8-sig"))
     else:
         tema = args.tema or "Saude e Qualidade de Vida"
         slides_data = DEFAULT_STRUCTURE[:args.slides]
